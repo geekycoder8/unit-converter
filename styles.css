@@ -1,0 +1,72 @@
+body {
+	font-family: "Inter", sans-serif;
+	color: white;
+	margin: 0;
+	text-align: center;
+}
+
+#hero {
+	background: #6943FF;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	height: 300px;
+	height: 400px;
+}
+
+
+#title {
+	font-weight: 28px;
+	font-weight: bolder;
+	margin-bottom: 0;
+}
+
+input {
+	font-size: 58px;
+	font-weight: bolder;
+	border: 2px solid #B295FF;
+	border-radius: 5px;
+	padding: 5px;
+	width: 117px;
+	height: 83;
+	text-align: center;
+	color: white;
+	background: #6943FF;
+	margin: 35px 0 25px 0;
+}
+
+#convert-btn {
+	border-radius: 5px;
+	padding: 15px 35px;
+	border: none;
+	background: white;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+#conversions {
+	padding-top: 25px;
+	background: #F4F4F4;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100vh;
+}
+
+.conversion {
+	background: white;
+	width: 500px;
+	margin-top: 30px;
+	padding: 10px 30px;
+
+}
+
+.conversion-metric {
+	color: #5A537B;
+	font-weight: 500;
+}
+
+.conversion-result {
+	color: #353535
+}
