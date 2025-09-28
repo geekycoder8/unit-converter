@@ -6,8 +6,7 @@ body {
 }
 
 #hero {
-	/* background: #6943FF; */
-	background: #e75454;
+	background: #6943FF;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
